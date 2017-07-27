@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050DB0F0C2F8A49C0142D976392BA3CC /* Pods-Tippy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A41228030B1CDE3B87FF0017E3C1E3B /* Pods-Tippy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		325076D8A4BABF3E78090ECE36650E8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		35E625AE123C6CFDC4685F3DCC27AB17 /* RaisePlaceholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 443CB228B030034A31589B6FA9C98956 /* RaisePlaceholder-dummy.m */; };
+		40BAF14FD84556FCA1345C84654BD72D /* TTSegmentedControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C275A3178A07E90BF9E89C40F70B6026 /* TTSegmentedControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41BB845A03068F4F1E82787F48B8BA39 /* RaisePlaceholder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A28E0FFEAA77AEE6FB86128D9E0F4A /* RaisePlaceholder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		702C2B8A587886A1FE88DAF7DA21AAC2 /* TTSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41489857F635BCD917122294CDC249F /* TTSegmentedControl.swift */; };
+		7A0C2AD6B357FB83151C353BEF206D35 /* RaisePlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4EF9830F22C4D0303C3DB82305844C /* RaisePlaceholder.swift */; };
+		81840CED9EE13D406426808A6AFB3228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		8D31E3A3FED378A4009B8BDB9F7A9BAC /* TTSegmentedControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0094C23A10A8D94810577641AD092F3 /* TTSegmentedControl-dummy.m */; };
+		9D851D33D8FC2A718062D95715CD7FAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		9DEC90580440D6B5141C2FD726A173B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C5D955209C5E21F51E5542FE07A9F036 /* Pods-Tippy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5AD1AE0726116D48AEA39E51C54B28 /* Pods-Tippy-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		284D9130BE0FF99DEDBF92F2AF3322BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76773C998D048E5DF05CBA49030CFDB;
+			remoteInfo = RaisePlaceholder;
+		};
+		3CB6561D479FDD06815BCDE20AC52B2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6195D41032B6229762B9D8C99DC24A75;
+			remoteInfo = TTSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C367B9C8B17E2C4C4E3AD3B3D1A0C00 /* Pods_Tippy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Tippy.framework; path = "Pods-Tippy.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4EF9830F22C4D0303C3DB82305844C /* RaisePlaceholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RaisePlaceholder.swift; path = Sources/RaisePlaceholder.swift; sourceTree = "<group>"; };
+		11101A2BEDD7FBDFC4891FA772015C9C /* Pods-Tippy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tippy.release.xcconfig"; sourceTree = "<group>"; };
+		1A41228030B1CDE3B87FF0017E3C1E3B /* Pods-Tippy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tippy-umbrella.h"; sourceTree = "<group>"; };
+		1E8061E4C48663C2DD21DB75D19C9909 /* RaisePlaceholder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RaisePlaceholder.modulemap; sourceTree = "<group>"; };
+		219C2B7280A8AB4A7FEC2BD24BAB9E19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		434FA84FFA67576D44DC16C52D6115BD /* TTSegmentedControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTSegmentedControl.framework; path = TTSegmentedControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		443CB228B030034A31589B6FA9C98956 /* RaisePlaceholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RaisePlaceholder-dummy.m"; sourceTree = "<group>"; };
+		4B7FE4839ABC8ED7B559621AF1EDDA34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52CDF2B9CFBC5C8F2209CE7EE40E85F7 /* Pods-Tippy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Tippy.modulemap"; sourceTree = "<group>"; };
+		583BE86B5343AF4E6BD743AD841A9EBA /* RaisePlaceholder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RaisePlaceholder-prefix.pch"; sourceTree = "<group>"; };
+		71998C0792993A03258E0E2B4A9A62BF /* Pods-Tippy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tippy-resources.sh"; sourceTree = "<group>"; };
+		77843F08B4B36FE7B8E847F9DE1B0611 /* Pods-Tippy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tippy-acknowledgements.plist"; sourceTree = "<group>"; };
+		7B5AD1AE0726116D48AEA39E51C54B28 /* Pods-Tippy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tippy-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9405843DD28E8B0477548FE6D2A9F84E /* Pods-Tippy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tippy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9859BBBA42771368CC38ADD7DDDDDF39 /* TTSegmentedControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTSegmentedControl-prefix.pch"; sourceTree = "<group>"; };
+		B0094C23A10A8D94810577641AD092F3 /* TTSegmentedControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTSegmentedControl-dummy.m"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B9A28E0FFEAA77AEE6FB86128D9E0F4A /* RaisePlaceholder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RaisePlaceholder-umbrella.h"; sourceTree = "<group>"; };
+		C275A3178A07E90BF9E89C40F70B6026 /* TTSegmentedControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTSegmentedControl-umbrella.h"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA7172A98DDD13ACC60C1313ADABBFA8 /* TTSegmentedControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTSegmentedControl.xcconfig; sourceTree = "<group>"; };
+		DB529C55CC9B2C8D303163FB3A81E5AD /* Pods-Tippy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tippy.debug.xcconfig"; sourceTree = "<group>"; };
+		E41489857F635BCD917122294CDC249F /* TTSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TTSegmentedControl.swift; path = TTSegmentedControl/TTSegmentedControl.swift; sourceTree = "<group>"; };
+		EC3C8D8AD31453B00074089AB6836A68 /* TTSegmentedControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TTSegmentedControl.modulemap; sourceTree = "<group>"; };
+		F49C26B845D5E71FB5BCE5E5FB0F2B1A /* RaisePlaceholder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RaisePlaceholder.xcconfig; sourceTree = "<group>"; };
+		FAD6ADA650DAF5428924088476474C6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD00B9A30DD012B95E933D6B090B24FC /* RaisePlaceholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RaisePlaceholder.framework; path = RaisePlaceholder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC7B9A935F448412D1C284BC6A0CB6D /* Pods-Tippy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tippy-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1310DC4B3039B3B3EB821A0F631D21D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81840CED9EE13D406426808A6AFB3228 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CC8FBCB5B6BEE823217D9F255108A1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEC90580440D6B5141C2FD726A173B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EC40D1166575814C3319496AD6DA1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325076D8A4BABF3E78090ECE36650E8F /* Foundation.framework in Frameworks */,
+				9D851D33D8FC2A718062D95715CD7FAB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A08520DFA79CC667A0FB1496F2D07C5 /* Pods-Tippy */ = {
+			isa = PBXGroup;
+			children = (
+				219C2B7280A8AB4A7FEC2BD24BAB9E19 /* Info.plist */,
+				52CDF2B9CFBC5C8F2209CE7EE40E85F7 /* Pods-Tippy.modulemap */,
+				9405843DD28E8B0477548FE6D2A9F84E /* Pods-Tippy-acknowledgements.markdown */,
+				77843F08B4B36FE7B8E847F9DE1B0611 /* Pods-Tippy-acknowledgements.plist */,
+				7B5AD1AE0726116D48AEA39E51C54B28 /* Pods-Tippy-dummy.m */,
+				FEC7B9A935F448412D1C284BC6A0CB6D /* Pods-Tippy-frameworks.sh */,
+				71998C0792993A03258E0E2B4A9A62BF /* Pods-Tippy-resources.sh */,
+				1A41228030B1CDE3B87FF0017E3C1E3B /* Pods-Tippy-umbrella.h */,
+				DB529C55CC9B2C8D303163FB3A81E5AD /* Pods-Tippy.debug.xcconfig */,
+				11101A2BEDD7FBDFC4891FA772015C9C /* Pods-Tippy.release.xcconfig */,
+			);
+			name = "Pods-Tippy";
+			path = "Target Support Files/Pods-Tippy";
+			sourceTree = "<group>";
+		};
+		19D1C6A3A44802252FFFFDA1896525BD /* RaisePlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				0D4EF9830F22C4D0303C3DB82305844C /* RaisePlaceholder.swift */,
+				530B66916480F0AE12D5604A70926D3B /* Support Files */,
+			);
+			name = RaisePlaceholder;
+			path = RaisePlaceholder;
+			sourceTree = "<group>";
+		};
+		415E4DAC566D47F391E5DF4D77CF5373 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6ADA650DAF5428924088476474C6A /* Info.plist */,
+				EC3C8D8AD31453B00074089AB6836A68 /* TTSegmentedControl.modulemap */,
+				DA7172A98DDD13ACC60C1313ADABBFA8 /* TTSegmentedControl.xcconfig */,
+				B0094C23A10A8D94810577641AD092F3 /* TTSegmentedControl-dummy.m */,
+				9859BBBA42771368CC38ADD7DDDDDF39 /* TTSegmentedControl-prefix.pch */,
+				C275A3178A07E90BF9E89C40F70B6026 /* TTSegmentedControl-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTSegmentedControl";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4B7EADA27FAE4DA08C21D5A4565B2BB3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A08520DFA79CC667A0FB1496F2D07C5 /* Pods-Tippy */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		530B66916480F0AE12D5604A70926D3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B7FE4839ABC8ED7B559621AF1EDDA34 /* Info.plist */,
+				1E8061E4C48663C2DD21DB75D19C9909 /* RaisePlaceholder.modulemap */,
+				F49C26B845D5E71FB5BCE5E5FB0F2B1A /* RaisePlaceholder.xcconfig */,
+				443CB228B030034A31589B6FA9C98956 /* RaisePlaceholder-dummy.m */,
+				583BE86B5343AF4E6BD743AD841A9EBA /* RaisePlaceholder-prefix.pch */,
+				B9A28E0FFEAA77AEE6FB86128D9E0F4A /* RaisePlaceholder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RaisePlaceholder";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				ED11CA0D44DC945ECBE862E77C4BEE61 /* Pods */,
+				BECC00586EE718BEE6CFEEC48D6552B6 /* Products */,
+				4B7EADA27FAE4DA08C21D5A4565B2BB3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9804E5D3FF25BF50E8C67FCCDD14DEBF /* TTSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				E41489857F635BCD917122294CDC249F /* TTSegmentedControl.swift */,
+				415E4DAC566D47F391E5DF4D77CF5373 /* Support Files */,
+			);
+			name = TTSegmentedControl;
+			path = TTSegmentedControl;
+			sourceTree = "<group>";
+		};
+		BECC00586EE718BEE6CFEEC48D6552B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C367B9C8B17E2C4C4E3AD3B3D1A0C00 /* Pods_Tippy.framework */,
+				FD00B9A30DD012B95E933D6B090B24FC /* RaisePlaceholder.framework */,
+				434FA84FFA67576D44DC16C52D6115BD /* TTSegmentedControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED11CA0D44DC945ECBE862E77C4BEE61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19D1C6A3A44802252FFFFDA1896525BD /* RaisePlaceholder */,
+				9804E5D3FF25BF50E8C67FCCDD14DEBF /* TTSegmentedControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		637E0760F2DE69AF0DA68BBAEC2BF749 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BB845A03068F4F1E82787F48B8BA39 /* RaisePlaceholder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43013AE5AE66B30CC9D6AAE1B3E6278 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050DB0F0C2F8A49C0142D976392BA3CC /* Pods-Tippy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D63F5023E61A325969285F64A06C8C00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BAF14FD84556FCA1345C84654BD72D /* TTSegmentedControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6195D41032B6229762B9D8C99DC24A75 /* TTSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B035FF21D484E669F128E171E4FCB83 /* Build configuration list for PBXNativeTarget "TTSegmentedControl" */;
+			buildPhases = (
+				E490F40AB6AEF1813A0B1C969D2117E0 /* Sources */,
+				B4EC40D1166575814C3319496AD6DA1A /* Frameworks */,
+				D63F5023E61A325969285F64A06C8C00 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTSegmentedControl;
+			productName = TTSegmentedControl;
+			productReference = 434FA84FFA67576D44DC16C52D6115BD /* TTSegmentedControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E19C7D412A2EB01A491E6D38FA52968F /* Pods-Tippy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DDC479C11DF6FFC06482A013E46BDFE /* Build configuration list for PBXNativeTarget "Pods-Tippy" */;
+			buildPhases = (
+				2982F9AAF3085364EDF9BBFC415E548F /* Sources */,
+				1310DC4B3039B3B3EB821A0F631D21D6 /* Frameworks */,
+				D43013AE5AE66B30CC9D6AAE1B3E6278 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB1E07903D9C9BECBE171DD5D9751ADC /* PBXTargetDependency */,
+				F7837E31180633E17AA353FE2F73BA76 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tippy";
+			productName = "Pods-Tippy";
+			productReference = 0C367B9C8B17E2C4C4E3AD3B3D1A0C00 /* Pods_Tippy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F76773C998D048E5DF05CBA49030CFDB /* RaisePlaceholder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35F3D6896B43740F06191F2206947AA6 /* Build configuration list for PBXNativeTarget "RaisePlaceholder" */;
+			buildPhases = (
+				C9E0271FED4D14F80C5153AF4E2039F1 /* Sources */,
+				9CC8FBCB5B6BEE823217D9F255108A1B /* Frameworks */,
+				637E0760F2DE69AF0DA68BBAEC2BF749 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaisePlaceholder;
+			productName = RaisePlaceholder;
+			productReference = FD00B9A30DD012B95E933D6B090B24FC /* RaisePlaceholder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BECC00586EE718BEE6CFEEC48D6552B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19C7D412A2EB01A491E6D38FA52968F /* Pods-Tippy */,
+				F76773C998D048E5DF05CBA49030CFDB /* RaisePlaceholder */,
+				6195D41032B6229762B9D8C99DC24A75 /* TTSegmentedControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2982F9AAF3085364EDF9BBFC415E548F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D955209C5E21F51E5542FE07A9F036 /* Pods-Tippy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9E0271FED4D14F80C5153AF4E2039F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E625AE123C6CFDC4685F3DCC27AB17 /* RaisePlaceholder-dummy.m in Sources */,
+				7A0C2AD6B357FB83151C353BEF206D35 /* RaisePlaceholder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E490F40AB6AEF1813A0B1C969D2117E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D31E3A3FED378A4009B8BDB9F7A9BAC /* TTSegmentedControl-dummy.m in Sources */,
+				702C2B8A587886A1FE88DAF7DA21AAC2 /* TTSegmentedControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB1E07903D9C9BECBE171DD5D9751ADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RaisePlaceholder;
+			target = F76773C998D048E5DF05CBA49030CFDB /* RaisePlaceholder */;
+			targetProxy = 284D9130BE0FF99DEDBF92F2AF3322BD /* PBXContainerItemProxy */;
+		};
+		F7837E31180633E17AA353FE2F73BA76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTSegmentedControl;
+			target = 6195D41032B6229762B9D8C99DC24A75 /* TTSegmentedControl */;
+			targetProxy = 3CB6561D479FDD06815BCDE20AC52B2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4EBD5158D3363DE9C0417220EB07AC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7172A98DDD13ACC60C1313ADABBFA8 /* TTSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTSegmentedControl/TTSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTSegmentedControl/TTSegmentedControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TTSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A33EC56B150187B29F3D496884EE5997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49C26B845D5E71FB5BCE5E5FB0F2B1A /* RaisePlaceholder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RaisePlaceholder/RaisePlaceholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RaisePlaceholder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RaisePlaceholder/RaisePlaceholder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RaisePlaceholder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9B18F64A7AC3F2B41FD31B125734669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA7172A98DDD13ACC60C1313ADABBFA8 /* TTSegmentedControl.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTSegmentedControl/TTSegmentedControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTSegmentedControl/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTSegmentedControl/TTSegmentedControl.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TTSegmentedControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BCA48CB1D39F73D52AE04600767BA4BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F49C26B845D5E71FB5BCE5E5FB0F2B1A /* RaisePlaceholder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RaisePlaceholder/RaisePlaceholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RaisePlaceholder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RaisePlaceholder/RaisePlaceholder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RaisePlaceholder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC5D35FBD872357B6EE713C596D0A060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB529C55CC9B2C8D303163FB3A81E5AD /* Pods-Tippy.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tippy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tippy/Pods-Tippy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tippy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9FF4D88BEF2C9ABDE67BF624D9EF27B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11101A2BEDD7FBDFC4891FA772015C9C /* Pods-Tippy.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Tippy/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Tippy/Pods-Tippy.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Tippy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B035FF21D484E669F128E171E4FCB83 /* Build configuration list for PBXNativeTarget "TTSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B18F64A7AC3F2B41FD31B125734669 /* Debug */,
+				4EBD5158D3363DE9C0417220EB07AC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35F3D6896B43740F06191F2206947AA6 /* Build configuration list for PBXNativeTarget "RaisePlaceholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA48CB1D39F73D52AE04600767BA4BF /* Debug */,
+				A33EC56B150187B29F3D496884EE5997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DDC479C11DF6FFC06482A013E46BDFE /* Build configuration list for PBXNativeTarget "Pods-Tippy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5D35FBD872357B6EE713C596D0A060 /* Debug */,
+				F9FF4D88BEF2C9ABDE67BF624D9EF27B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

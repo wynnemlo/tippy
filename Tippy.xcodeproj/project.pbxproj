@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		4DBEDA1B1F226C0700E33F23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEDA1A1F226C0700E33F23 /* AppDelegate.swift */; };
-		4DBEDA1D1F226C0700E33F23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEDA1C1F226C0700E33F23 /* ViewController.swift */; };
 		4DBEDA201F226C0700E33F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBEDA1E1F226C0700E33F23 /* Main.storyboard */; };
 		4DBEDA221F226C0700E33F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBEDA211F226C0700E33F23 /* Assets.xcassets */; };
 		4DBEDA251F226C0700E33F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBEDA231F226C0700E33F23 /* LaunchScreen.storyboard */; };
+		4DBEDA2F1F226C4000E33F23 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEDA2E1F226C4000E33F23 /* SettingsViewController.swift */; };
+		4DBEDA311F226C4500E33F23 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEDA301F226C4500E33F23 /* TipViewController.swift */; };
+		4DBEDA331F232EA800E33F23 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEDA321F232EA800E33F23 /* ContainerViewController.swift */; };
+		EE408B09BAA40D833897516D /* Pods_Tippy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41120E254380349895D66DD0 /* Pods_Tippy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23C9B3E6095370F96666FCF6 /* Pods-Tippy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tippy/Pods-Tippy.release.xcconfig"; sourceTree = "<group>"; };
+		41120E254380349895D66DD0 /* Pods_Tippy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tippy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBEDA171F226C0700E33F23 /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DBEDA1A1F226C0700E33F23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DBEDA1C1F226C0700E33F23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DBEDA1F1F226C0700E33F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DBEDA211F226C0700E33F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DBEDA241F226C0700E33F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DBEDA261F226C0700E33F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBEDA2E1F226C4000E33F23 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4DBEDA301F226C4500E33F23 /* TipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
+		4DBEDA321F232EA800E33F23 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		4F8FCEAE377CC8ED28BD5C7F /* Pods-Tippy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tippy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tippy/Pods-Tippy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE408B09BAA40D833897516D /* Pods_Tippy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11EB913E094C641B3842D8E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41120E254380349895D66DD0 /* Pods_Tippy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4DBEDA0E1F226C0700E33F23 = {
 			isa = PBXGroup;
 			children = (
 				4DBEDA191F226C0700E33F23 /* Tippy */,
 				4DBEDA181F226C0700E33F23 /* Products */,
+				C858E8C0F32D2EC32CF8F04E /* Pods */,
+				11EB913E094C641B3842D8E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +74,24 @@
 			isa = PBXGroup;
 			children = (
 				4DBEDA1A1F226C0700E33F23 /* AppDelegate.swift */,
-				4DBEDA1C1F226C0700E33F23 /* ViewController.swift */,
+				4DBEDA301F226C4500E33F23 /* TipViewController.swift */,
+				4DBEDA2E1F226C4000E33F23 /* SettingsViewController.swift */,
+				4DBEDA321F232EA800E33F23 /* ContainerViewController.swift */,
 				4DBEDA1E1F226C0700E33F23 /* Main.storyboard */,
 				4DBEDA211F226C0700E33F23 /* Assets.xcassets */,
 				4DBEDA231F226C0700E33F23 /* LaunchScreen.storyboard */,
 				4DBEDA261F226C0700E33F23 /* Info.plist */,
 			);
 			path = Tippy;
+			sourceTree = "<group>";
+		};
+		C858E8C0F32D2EC32CF8F04E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F8FCEAE377CC8ED28BD5C7F /* Pods-Tippy.debug.xcconfig */,
+				23C9B3E6095370F96666FCF6 /* Pods-Tippy.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DBEDA291F226C0700E33F23 /* Build configuration list for PBXNativeTarget "Tippy" */;
 			buildPhases = (
+				A080FBCDCDD8FB2AF55082F5 /* [CP] Check Pods Manifest.lock */,
 				4DBEDA131F226C0700E33F23 /* Sources */,
 				4DBEDA141F226C0700E33F23 /* Frameworks */,
 				4DBEDA151F226C0700E33F23 /* Resources */,
+				553F799BDD9436D4E1A64B7D /* [CP] Embed Pods Frameworks */,
+				19A5D37BF7DFCC9BFD4E37CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +129,7 @@
 				TargetAttributes = {
 					4DBEDA161F226C0700E33F23 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K958H6574L;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +165,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19A5D37BF7DFCC9BFD4E37CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tippy/Pods-Tippy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		553F799BDD9436D4E1A64B7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tippy/Pods-Tippy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A080FBCDCDD8FB2AF55082F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4DBEDA131F226C0700E33F23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DBEDA1D1F226C0700E33F23 /* ViewController.swift in Sources */,
 				4DBEDA1B1F226C0700E33F23 /* AppDelegate.swift in Sources */,
+				4DBEDA331F232EA800E33F23 /* ContainerViewController.swift in Sources */,
+				4DBEDA311F226C4500E33F23 /* TipViewController.swift in Sources */,
+				4DBEDA2F1F226C4000E33F23 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,11 +342,14 @@
 		};
 		4DBEDA2A1F226C0700E33F23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F8FCEAE377CC8ED28BD5C7F /* Pods-Tippy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K958H6574L;
 				INFOPLIST_FILE = Tippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Tippy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wynnelo.Tippy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -270,11 +357,14 @@
 		};
 		4DBEDA2B1F226C0700E33F23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23C9B3E6095370F96666FCF6 /* Pods-Tippy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K958H6574L;
 				INFOPLIST_FILE = Tippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Tippy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wynnelo.Tippy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +389,7 @@
 				4DBEDA2B1F226C0700E33F23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

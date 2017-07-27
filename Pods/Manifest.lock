@@ -1,0 +1,24 @@
+PODS:
+  - RaisePlaceholder (1.0.3)
+  - TTSegmentedControl (0.2.1)
+
+DEPENDENCIES:
+  - RaisePlaceholder (from `https://github.com/wynnemlo/RaisePlaceholder`)
+  - TTSegmentedControl
+
+EXTERNAL SOURCES:
+  RaisePlaceholder:
+    :git: https://github.com/wynnemlo/RaisePlaceholder
+
+CHECKOUT OPTIONS:
+  RaisePlaceholder:
+    :commit: 15d39a46e64aac87a9c6b8d217e3697272063434
+    :git: https://github.com/wynnemlo/RaisePlaceholder
+
+SPEC CHECKSUMS:
+  RaisePlaceholder: c670a8b4220b3cfb333567b03f0bcf9ab34dc431
+  TTSegmentedControl: 6ba1c0ef7bf966c794361772003f8b27cc812e0a
+
+PODFILE CHECKSUM: db528b18892cf50bd0c8641410b48e258b842df9
+
+COCOAPODS: 1.2.1
