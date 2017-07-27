@@ -21,25 +21,30 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] The keyboard is always visible but the bill amount is not the first responder due to UI design.
+- [x] The keyboard is visible upon loading but the bill amount is not the first responder due to UI design.
 - [x] User can input the number of people the bill is the split among.
-- [x] User 
+- [x] User can add extra amounts (that are not subjected to tax) to be split - for example, if they are attending a birthday dinner and they pitch in for the birthday cake money
+- [x] User can choose a plain or color theme (gradient background)
+- [x] Currency amounts are indicated with the "$" sign for improved readability - invalid inputs will be checked and disabled.
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/O0HoQYa.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I wanted to implement a full light/dark theme for the app, but found out that it's very challenging to do so. I didn't want to have a bunch of spaghetti code setting up the colors of each component, but that also meant I may have to incorporate certain other frameworks? I couldn't figure out an elegant solution so I decided to simplify the feature and go with a plain / colored background.
+
+I've decided, that instead of implementing a pushed view controller for the Settings page, to use a slide out view controller that's contained in a parent controller. This is so that users that easily see the theme changes, instead of having to go back and forth between the main and settings VC.
+
+I've incorporated a few Cocoapods mainly for UI design, but one of the libraries did not exactly do what I needed it to do, so I had to fork the original and modify it.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Wynne Lo]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
