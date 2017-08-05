@@ -43,6 +43,21 @@ I've decided, that instead of implementing a pushed view controller for the Sett
 
 I've incorporated a few Cocoapods mainly for UI design, but one of the libraries did not exactly do what I needed it to do, so I had to fork the original and modify it.
 
+## Project Analysis
+
+As part of your pre-work submission, please reflect on the app and answer the following questions below:
+
+**Question 1**: "What are your reactions to the iOS app development platform so far? How would you describe outlets and actions to another developer? Bonus: any idea how they are being implemented under the hood? (It might give you some ideas if you right-click on the Storyboard and click Open As->Source Code")
+
+**Answer:** I love developing onthe iOS app platform (especially compared to Android), because of how elegant it is with the autolayout. It is a lot simpler than web development because of how you don't have to use CSS which is oftentimes unreliable and inconsistent between different browsers.
+I would tell the developer that interfaces (views) are designed / coded in a storyboard file, which is separate from the view controller files (controller). It is similar to web dev's MVC concept, where the views are the HTML files, but in here it's an XML file. An outlet is basically a variable for an item in the VIEW file, that is accessible in your CONTROLLER file. An action is basically a function defined in your CONTROLLER file to control the behavior of a particular item in the VIEW. Basically, outlets and actions are just ways to link the view and controller.
+
+Question 2: "Swift uses [Automatic Reference Counting](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html#//apple_ref/doc/uid/TP40014097-CH20-ID49) (ARC), which is not a garbage collector, to manage memory. Can you explain how you can get a strong reference cycle for closures? (There's a section explaining this concept in the link, how would you summarize as simply as possible?)"
+
+**Answer:** All the declarations (with the '=' sign) are implicitly assumed to be strong references in Swift. A strong reference cycle is when two instances have a strong reference to each other, then the two instances will never be deinitialized and cause a memory leak.
+This can happen as well for closures, when an instance references a closure and the closure references the instance ('self'). E.g. a person has a weight and height variable, and then his BMI is declared as a closure with a reference to the person's own weight and height. Then even when we declare the person to be nil, the person will not deinitialize because there's a strong reference cycle. To resolve these issues, we can use the 'weak' or 'unowned' prefix to change the nature of the reference (so that it's not both strong references to each other).
+
+
 ## License
 
     Copyright [2017] [Wynne Lo]
